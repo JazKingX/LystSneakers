@@ -1,0 +1,6 @@
+framework module Pods_LystSneakersTests {
+  umbrella header "Pods-LystSneakersTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
