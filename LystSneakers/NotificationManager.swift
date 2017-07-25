@@ -9,30 +9,36 @@
 import Foundation
 import UIKit
 
-class notificationManager {
+class NotificationManager {
     
-    var itemName: String
-    var itemType: String
-    
-    func setNotificationIn5() {
+    //Set notification in 5 mins
+    func setNotificationIn5(_ name: String, type: String) {
+        
+        print("Set notification is called")
         
         //Set notification for 5 mins after current time
-        var date = DateComponents()
-        date.minute = 5
+        let fireDate = NSDate()
         
         // ios 9 notification
         let notification = UILocalNotification()
-        notification.fireDate = date.date
-        notification.alertBody = "Your \(itemName) \(itemType) is on sale now!!"
-        //notification1.alertAction = "be awesome!"
+        
+        //Set notification details
+        notification.category = "Product Notification"
+        notification.userInfo = [ "NotificationID"  : "\(name)",]
+        notification.alertBody = "Your \(name) \(type) is on sale now!!"
+        
+        //Set notification 5 mins from now
+        notification.fireDate = fireDate.addingTimeInterval(60 * 5) as Date
+        
+        //Set notitification sound
         notification.soundName = UILocalNotificationDefaultSoundName
+        
+        //Schedule Notification
         UIApplication.shared.scheduleLocalNotification(notification)
         
+        
+        
     }
-    
-    init(itemName: String, itemType: String) {
-        self.itemName = itemName
-        self.itemType = itemType
-    }
+
     
 }

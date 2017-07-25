@@ -130,7 +130,11 @@ class FeedViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         //initiate a segue to detail view
         
-        //Store product properties to use for notification when app enters background
+        //Set properties in AppDelegate to use for notification when app enters background
+        let delegate = (UIApplication.shared.delegate as! AppDelegate)
+        delegate.setNotification = true
+        delegate.productNotificationName = (self.products[(indexPath as NSIndexPath).row].designerName)
+        delegate.productNotificationType = (self.products[(indexPath as NSIndexPath).row].title)
         
         //Print product details to the console
         print("Selected \(self.products[(indexPath as NSIndexPath).row].designerName), \(self.products[(indexPath as NSIndexPath).row].title)")

@@ -271,7 +271,7 @@
                                 <color key="separatorColor" red="0.96068006750000001" green="0.96084433790000001" blue="0.96066969629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.96068006750000001" green="0.96084433790000001" blue="0.96066969629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="70" id="yuV-aO-dcW">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="70" id="yuV-aO-dcW">
                                         <rect key="frame" x="0.0" y="28" width="414" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yuV-aO-dcW" id="fGt-s5-SHV">
@@ -293,7 +293,7 @@
                                     <constraint firstAttribute="height" constant="40" id="3Ib-Xo-6vV"/>
                                     <constraint firstAttribute="width" constant="140" id="pkZ-RS-oYR"/>
                                 </constraints>
-                                <state key="normal" title="Women">
+                                <state key="normal" title="Womens">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -318,7 +318,7 @@
                                     <constraint firstAttribute="width" constant="140" id="HUy-ie-03w"/>
                                     <constraint firstAttribute="height" constant="40" id="bcm-vn-S3I"/>
                                 </constraints>
-                                <state key="normal" title="Man">
+                                <state key="normal" title="Mens">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>

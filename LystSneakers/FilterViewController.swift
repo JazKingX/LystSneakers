@@ -136,11 +136,19 @@ class FilterViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
         
+        //Add checkmark
+        tableView.cellForRow(at: indexPath as IndexPath)?.accessoryType = .checkmark
+
         //St preference to category string in table view cell
         self.networkManager.category = categories[indexPath.row]
         
         print("Selected \(categories[indexPath.row])")
+    }
+
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath as IndexPath)?.accessoryType = .none
     }
     
 }
