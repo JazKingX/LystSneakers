@@ -7,17 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24DF27734BD94142DAD54622 /* Pods_LystSneakersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636C72AD069EBD041039FBA /* Pods_LystSneakersUITests.framework */; };
+		731F0F8D1F26C4F300F525A5 /* LystNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731F0F841F26C4F300F525A5 /* LystNetwork.framework */; };
+		731F0F941F26C4F300F525A5 /* LystNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F0F931F26C4F300F525A5 /* LystNetworkTests.swift */; };
+		731F0F961F26C4F300F525A5 /* LystNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 731F0F861F26C4F300F525A5 /* LystNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731F0F991F26C4F300F525A5 /* LystNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731F0F841F26C4F300F525A5 /* LystNetwork.framework */; };
+		731F0F9A1F26C4F300F525A5 /* LystNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 731F0F841F26C4F300F525A5 /* LystNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		736B455E1F17C72900F64E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B455D1F17C72900F64E41 /* AppDelegate.swift */; };
-		736B45601F17C72900F64E41 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B455F1F17C72900F64E41 /* MasterViewController.swift */; };
-		736B45621F17C72900F64E41 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45611F17C72900F64E41 /* DetailViewController.swift */; };
+		736B45601F17C72900F64E41 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B455F1F17C72900F64E41 /* FeedViewController.swift */; };
 		736B45651F17C72900F64E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736B45631F17C72900F64E41 /* Main.storyboard */; };
 		736B45671F17C72900F64E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736B45661F17C72900F64E41 /* Assets.xcassets */; };
 		736B456A1F17C72900F64E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736B45681F17C72900F64E41 /* LaunchScreen.storyboard */; };
 		736B45751F17C72A00F64E41 /* LystSneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45741F17C72A00F64E41 /* LystSneakersTests.swift */; };
 		736B45801F17C72A00F64E41 /* LystSneakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B457F1F17C72A00F64E41 /* LystSneakersUITests.swift */; };
+		736B458E1F17D4F600F64E41 /* NetworkMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B458D1F17D4F600F64E41 /* NetworkMananger.swift */; };
+		736B45901F17D50600F64E41 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B458F1F17D50600F64E41 /* NotificationManager.swift */; };
+		736B45951F1956F200F64E41 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45941F1956F100F64E41 /* CollectionViewCell.swift */; };
+		736B459A1F197CCB00F64E41 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45991F197CCA00F64E41 /* FilterViewController.swift */; };
+		736B459D1F19871D00F64E41 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B459C1F19871D00F64E41 /* Product.swift */; };
+		841148B2E828266049C5D8DE /* Pods_LystSneakers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A06FFD965836B3BA66F85 /* Pods_LystSneakers.framework */; };
+		9682049931D203098B892BCD /* Pods_LystSneakersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A33C9F3C54B4FC130438ED /* Pods_LystSneakersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		731F0F8E1F26C4F300F525A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736B45521F17C72900F64E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731F0F831F26C4F300F525A5;
+			remoteInfo = LystNetwork;
+		};
+		731F0F901F26C4F300F525A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736B45521F17C72900F64E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736B45591F17C72900F64E41;
+			remoteInfo = LystSneakers;
+		};
+		731F0F971F26C4F300F525A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736B45521F17C72900F64E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 731F0F831F26C4F300F525A5;
+			remoteInfo = LystNetwork;
+		};
 		736B45711F17C72A00F64E41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 736B45521F17C72900F64E41 /* Project object */;
@@ -34,11 +67,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		731F0F9E1F26C4F300F525A5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				731F0F9A1F26C4F300F525A5 /* LystNetwork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		176B043FD69E58295A85FE24 /* Pods-LystSneakersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17A33C9F3C54B4FC130438ED /* Pods_LystSneakersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystSneakersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3C3AC21FCAEF3D7F7825A6 /* Pods-LystSneakersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DD0F70D52C8369E2652FCC5 /* Pods-LystSneakersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		591BD844E6E26D2258375199 /* Pods-LystSneakers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakers.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers.release.xcconfig"; sourceTree = "<group>"; };
+		731F0F841F26C4F300F525A5 /* LystNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LystNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731F0F861F26C4F300F525A5 /* LystNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LystNetwork.h; sourceTree = "<group>"; };
+		731F0F871F26C4F300F525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731F0F8C1F26C4F300F525A5 /* LystNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LystNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731F0F931F26C4F300F525A5 /* LystNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LystNetworkTests.swift; sourceTree = "<group>"; };
+		731F0F951F26C4F300F525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		736B455A1F17C72900F64E41 /* LystSneakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LystSneakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736B455D1F17C72900F64E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		736B455F1F17C72900F64E41 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		736B45611F17C72900F64E41 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		736B455F1F17C72900F64E41 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		736B45641F17C72900F64E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736B45661F17C72900F64E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736B45691F17C72900F64E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,13 +106,39 @@
 		736B457B1F17C72A00F64E41 /* LystSneakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LystSneakersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		736B457F1F17C72A00F64E41 /* LystSneakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LystSneakersUITests.swift; sourceTree = "<group>"; };
 		736B45811F17C72A00F64E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736B458D1F17D4F600F64E41 /* NetworkMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkMananger.swift; path = ../LystSneakers/NetworkMananger.swift; sourceTree = "<group>"; };
+		736B458F1F17D50600F64E41 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		736B45941F1956F100F64E41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		736B45991F197CCA00F64E41 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		736B459C1F19871D00F64E41 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../LystSneakers/Product.swift; sourceTree = "<group>"; };
+		7C5A06FFD965836B3BA66F85 /* Pods_LystSneakers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystSneakers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8636C72AD069EBD041039FBA /* Pods_LystSneakersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystSneakersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EC6FC2B2BAA02C2BE31EA8 /* Pods-LystSneakersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A569A7AA8F303D58A0E06361 /* Pods-LystSneakers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		731F0F801F26C4F300F525A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731F0F891F26C4F300F525A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731F0F8D1F26C4F300F525A5 /* LystNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		736B45571F17C72900F64E41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841148B2E828266049C5D8DE /* Pods_LystSneakers.framework in Frameworks */,
+				731F0F991F26C4F300F525A5 /* LystNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9682049931D203098B892BCD /* Pods_LystSneakersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +154,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DF27734BD94142DAD54622 /* Pods_LystSneakersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32B16D62BC080F42FBEF4434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C5A06FFD965836B3BA66F85 /* Pods_LystSneakers.framework */,
+				17A33C9F3C54B4FC130438ED /* Pods_LystSneakersTests.framework */,
+				8636C72AD069EBD041039FBA /* Pods_LystSneakersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C834C462A788ACDA215A4A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A569A7AA8F303D58A0E06361 /* Pods-LystSneakers.debug.xcconfig */,
+				591BD844E6E26D2258375199 /* Pods-LystSneakers.release.xcconfig */,
+				4DD0F70D52C8369E2652FCC5 /* Pods-LystSneakersTests.debug.xcconfig */,
+				4D3C3AC21FCAEF3D7F7825A6 /* Pods-LystSneakersTests.release.xcconfig */,
+				176B043FD69E58295A85FE24 /* Pods-LystSneakersUITests.debug.xcconfig */,
+				A4EC6FC2B2BAA02C2BE31EA8 /* Pods-LystSneakersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		731F0F851F26C4F300F525A5 /* LystNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				736B459C1F19871D00F64E41 /* Product.swift */,
+				736B458D1F17D4F600F64E41 /* NetworkMananger.swift */,
+				731F0F861F26C4F300F525A5 /* LystNetwork.h */,
+				731F0F871F26C4F300F525A5 /* Info.plist */,
+			);
+			path = LystNetwork;
+			sourceTree = "<group>";
+		};
+		731F0F921F26C4F300F525A5 /* LystNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				731F0F931F26C4F300F525A5 /* LystNetworkTests.swift */,
+				731F0F951F26C4F300F525A5 /* Info.plist */,
+			);
+			path = LystNetworkTests;
+			sourceTree = "<group>";
+		};
 		736B45511F17C72900F64E41 = {
 			isa = PBXGroup;
 			children = (
 				736B455C1F17C72900F64E41 /* LystSneakers */,
 				736B45731F17C72A00F64E41 /* LystSneakersTests */,
 				736B457E1F17C72A00F64E41 /* LystSneakersUITests */,
+				731F0F851F26C4F300F525A5 /* LystNetwork */,
+				731F0F921F26C4F300F525A5 /* LystNetworkTests */,
 				736B455B1F17C72900F64E41 /* Products */,
+				4C834C462A788ACDA215A4A3 /* Pods */,
+				32B16D62BC080F42FBEF4434 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +224,8 @@
 				736B455A1F17C72900F64E41 /* LystSneakers.app */,
 				736B45701F17C72A00F64E41 /* LystSneakersTests.xctest */,
 				736B457B1F17C72A00F64E41 /* LystSneakersUITests.xctest */,
+				731F0F841F26C4F300F525A5 /* LystNetwork.framework */,
+				731F0F8C1F26C4F300F525A5 /* LystNetworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +233,9 @@
 		736B455C1F17C72900F64E41 /* LystSneakers */ = {
 			isa = PBXGroup;
 			children = (
-				736B455D1F17C72900F64E41 /* AppDelegate.swift */,
-				736B455F1F17C72900F64E41 /* MasterViewController.swift */,
-				736B45611F17C72900F64E41 /* DetailViewController.swift */,
+				736B459B1F197CE800F64E41 /* View Controllers */,
 				736B45631F17C72900F64E41 /* Main.storyboard */,
-				736B45661F17C72900F64E41 /* Assets.xcassets */,
-				736B45681F17C72900F64E41 /* LaunchScreen.storyboard */,
-				736B456B1F17C72900F64E41 /* Info.plist */,
+				736B45911F17D51000F64E41 /* Support Files */,
 			);
 			path = LystSneakers;
 			sourceTree = "<group>";
@@ -128,20 +258,95 @@
 			path = LystSneakersUITests;
 			sourceTree = "<group>";
 		};
+		736B45911F17D51000F64E41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				736B45681F17C72900F64E41 /* LaunchScreen.storyboard */,
+				736B45661F17C72900F64E41 /* Assets.xcassets */,
+				736B456B1F17C72900F64E41 /* Info.plist */,
+				736B455D1F17C72900F64E41 /* AppDelegate.swift */,
+				736B45941F1956F100F64E41 /* CollectionViewCell.swift */,
+				736B458F1F17D50600F64E41 /* NotificationManager.swift */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		736B459B1F197CE800F64E41 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				736B455F1F17C72900F64E41 /* FeedViewController.swift */,
+				736B45991F197CCA00F64E41 /* FilterViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		731F0F811F26C4F300F525A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731F0F961F26C4F300F525A5 /* LystNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		736B45591F17C72900F64E41 /* LystSneakers */ = {
+		731F0F831F26C4F300F525A5 /* LystNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 736B45841F17C72A00F64E41 /* Build configuration list for PBXNativeTarget "LystSneakers" */;
+			buildConfigurationList = 731F0F9B1F26C4F300F525A5 /* Build configuration list for PBXNativeTarget "LystNetwork" */;
 			buildPhases = (
-				736B45561F17C72900F64E41 /* Sources */,
-				736B45571F17C72900F64E41 /* Frameworks */,
-				736B45581F17C72900F64E41 /* Resources */,
+				731F0F7F1F26C4F300F525A5 /* Sources */,
+				731F0F801F26C4F300F525A5 /* Frameworks */,
+				731F0F811F26C4F300F525A5 /* Headers */,
+				731F0F821F26C4F300F525A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = LystNetwork;
+			productName = LystNetwork;
+			productReference = 731F0F841F26C4F300F525A5 /* LystNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		731F0F8B1F26C4F300F525A5 /* LystNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 731F0F9F1F26C4F300F525A5 /* Build configuration list for PBXNativeTarget "LystNetworkTests" */;
+			buildPhases = (
+				731F0F881F26C4F300F525A5 /* Sources */,
+				731F0F891F26C4F300F525A5 /* Frameworks */,
+				731F0F8A1F26C4F300F525A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731F0F8F1F26C4F300F525A5 /* PBXTargetDependency */,
+				731F0F911F26C4F300F525A5 /* PBXTargetDependency */,
+			);
+			name = LystNetworkTests;
+			productName = LystNetworkTests;
+			productReference = 731F0F8C1F26C4F300F525A5 /* LystNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		736B45591F17C72900F64E41 /* LystSneakers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736B45841F17C72A00F64E41 /* Build configuration list for PBXNativeTarget "LystSneakers" */;
+			buildPhases = (
+				5088E0D5035957EADE14984A /* [CP] Check Pods Manifest.lock */,
+				736B45561F17C72900F64E41 /* Sources */,
+				736B45571F17C72900F64E41 /* Frameworks */,
+				736B45581F17C72900F64E41 /* Resources */,
+				736D541739F24718A37C7F54 /* [CP] Embed Pods Frameworks */,
+				AE377A178EF3314C9A3CCEFA /* [CP] Copy Pods Resources */,
+				731F0F9E1F26C4F300F525A5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				731F0F981F26C4F300F525A5 /* PBXTargetDependency */,
 			);
 			name = LystSneakers;
 			productName = LystSneakers;
@@ -152,9 +357,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736B45871F17C72A00F64E41 /* Build configuration list for PBXNativeTarget "LystSneakersTests" */;
 			buildPhases = (
+				2507326C994D3F9A0721D2A4 /* [CP] Check Pods Manifest.lock */,
 				736B456C1F17C72A00F64E41 /* Sources */,
 				736B456D1F17C72A00F64E41 /* Frameworks */,
 				736B456E1F17C72A00F64E41 /* Resources */,
+				59A7BAF803E6C229D1923949 /* [CP] Embed Pods Frameworks */,
+				5A231AC75896B01E26046180 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +378,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736B458A1F17C72A00F64E41 /* Build configuration list for PBXNativeTarget "LystSneakersUITests" */;
 			buildPhases = (
+				EE6BE29FF34FEBFAD93527BA /* [CP] Check Pods Manifest.lock */,
 				736B45771F17C72A00F64E41 /* Sources */,
 				736B45781F17C72A00F64E41 /* Frameworks */,
 				736B45791F17C72A00F64E41 /* Resources */,
+				C75CBE6CA855170B586A950F /* [CP] Embed Pods Frameworks */,
+				6C1E0BEFECE0752FC6AB1728 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +405,17 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jaz King";
 				TargetAttributes = {
+					731F0F831F26C4F300F525A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 92SY62KF9H;
+						ProvisioningStyle = Automatic;
+					};
+					731F0F8B1F26C4F300F525A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 92SY62KF9H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 736B45591F17C72900F64E41;
+					};
 					736B45591F17C72900F64E41 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 92SY62KF9H;
@@ -229,11 +451,27 @@
 				736B45591F17C72900F64E41 /* LystSneakers */,
 				736B456F1F17C72A00F64E41 /* LystSneakersTests */,
 				736B457A1F17C72A00F64E41 /* LystSneakersUITests */,
+				731F0F831F26C4F300F525A5 /* LystNetwork */,
+				731F0F8B1F26C4F300F525A5 /* LystNetworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		731F0F821F26C4F300F525A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731F0F8A1F26C4F300F525A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		736B45581F17C72900F64E41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,13 +498,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2507326C994D3F9A0721D2A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5088E0D5035957EADE14984A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59A7BAF803E6C229D1923949 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A231AC75896B01E26046180 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1E0BEFECE0752FC6AB1728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736D541739F24718A37C7F54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE377A178EF3314C9A3CCEFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75CBE6CA855170B586A950F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6BE29FF34FEBFAD93527BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		731F0F7F1F26C4F300F525A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		731F0F881F26C4F300F525A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731F0F941F26C4F300F525A5 /* LystNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		736B45561F17C72900F64E41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736B45621F17C72900F64E41 /* DetailViewController.swift in Sources */,
-				736B45601F17C72900F64E41 /* MasterViewController.swift in Sources */,
+				736B458E1F17D4F600F64E41 /* NetworkMananger.swift in Sources */,
+				736B459D1F19871D00F64E41 /* Product.swift in Sources */,
+				736B459A1F197CCB00F64E41 /* FilterViewController.swift in Sources */,
+				736B45951F1956F200F64E41 /* CollectionViewCell.swift in Sources */,
+				736B45901F17D50600F64E41 /* NotificationManager.swift in Sources */,
+				736B45601F17C72900F64E41 /* FeedViewController.swift in Sources */,
 				736B455E1F17C72900F64E41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +685,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		731F0F8F1F26C4F300F525A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731F0F831F26C4F300F525A5 /* LystNetwork */;
+			targetProxy = 731F0F8E1F26C4F300F525A5 /* PBXContainerItemProxy */;
+		};
+		731F0F911F26C4F300F525A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736B45591F17C72900F64E41 /* LystSneakers */;
+			targetProxy = 731F0F901F26C4F300F525A5 /* PBXContainerItemProxy */;
+		};
+		731F0F981F26C4F300F525A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 731F0F831F26C4F300F525A5 /* LystNetwork */;
+			targetProxy = 731F0F971F26C4F300F525A5 /* PBXContainerItemProxy */;
+		};
 		736B45721F17C72A00F64E41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 736B45591F17C72900F64E41 /* LystSneakers */;
@@ -322,6 +732,78 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		731F0F9C1F26C4F300F525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 92SY62KF9H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LystNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731F0F9D1F26C4F300F525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 92SY62KF9H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LystNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731F0FA01F26C4F300F525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 92SY62KF9H;
+				INFOPLIST_FILE = LystNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LystSneakers.app/LystSneakers";
+			};
+			name = Debug;
+		};
+		731F0FA11F26C4F300F525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 92SY62KF9H;
+				INFOPLIST_FILE = LystNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LystSneakers.app/LystSneakers";
+			};
+			name = Release;
+		};
 		736B45821F17C72A00F64E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,10 +901,12 @@
 		};
 		736B45851F17C72A00F64E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A569A7AA8F303D58A0E06361 /* Pods-LystSneakers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 92SY62KF9H;
 				INFOPLIST_FILE = LystSneakers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystSneakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,10 +916,12 @@
 		};
 		736B45861F17C72A00F64E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591BD844E6E26D2258375199 /* Pods-LystSneakers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 92SY62KF9H;
 				INFOPLIST_FILE = LystSneakers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystSneakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +931,7 @@
 		};
 		736B45881F17C72A00F64E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD0F70D52C8369E2652FCC5 /* Pods-LystSneakersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +947,7 @@
 		};
 		736B45891F17C72A00F64E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3C3AC21FCAEF3D7F7825A6 /* Pods-LystSneakersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +963,7 @@
 		};
 		736B458B1F17C72A00F64E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176B043FD69E58295A85FE24 /* Pods-LystSneakersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 92SY62KF9H;
@@ -489,6 +978,7 @@
 		};
 		736B458C1F17C72A00F64E41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EC6FC2B2BAA02C2BE31EA8 /* Pods-LystSneakersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 92SY62KF9H;
@@ -504,6 +994,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		731F0F9B1F26C4F300F525A5 /* Build configuration list for PBXNativeTarget "LystNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731F0F9C1F26C4F300F525A5 /* Debug */,
+				731F0F9D1F26C4F300F525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		731F0F9F1F26C4F300F525A5 /* Build configuration list for PBXNativeTarget "LystNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731F0FA01F26C4F300F525A5 /* Debug */,
+				731F0FA11F26C4F300F525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		736B45551F17C72900F64E41 /* Build configuration list for PBXProject "LystSneakers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -520,6 +1026,7 @@
 				736B45861F17C72A00F64E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736B45871F17C72A00F64E41 /* Build configuration list for PBXNativeTarget "LystSneakersTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +1035,7 @@
 				736B45891F17C72A00F64E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736B458A1F17C72A00F64E41 /* Build configuration list for PBXNativeTarget "LystSneakersUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +1044,7 @@
 				736B458C1F17C72A00F64E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

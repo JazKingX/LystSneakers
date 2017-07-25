@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LystNetwork.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>LystSneakers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>731F0F831F26C4F300F525A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>731F0F8B1F26C4F300F525A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>736B45591F17C72900F64E41</key>
 		<dict>
 			<key>primary</key>

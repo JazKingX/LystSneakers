@@ -48,6 +48,16 @@
                ReferencedContainer = "container:LystSneakers.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "731F0F8B1F26C4F300F525A5"
+               BuildableName = "LystNetworkTests.xctest"
+               BlueprintName = "LystNetworkTests"
+               ReferencedContainer = "container:LystSneakers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
