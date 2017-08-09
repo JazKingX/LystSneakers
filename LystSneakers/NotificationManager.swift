@@ -9,7 +9,11 @@
 import Foundation
 import UIKit
 
-class NotificationManager {
+public class NotificationManager {
+    
+
+    let notification = UILocalNotification()
+
     
     //Set notification in 5 mins
     func setNotificationIn5(_ name: String, type: String) {
@@ -18,9 +22,6 @@ class NotificationManager {
         
         //Set notification for 5 mins after current time
         let fireDate = NSDate()
-        
-        // ios 9 notification
-        let notification = UILocalNotification()
         
         //Set notification details
         notification.category = "Product Notification"
@@ -35,7 +36,6 @@ class NotificationManager {
         
         //Schedule Notification
         UIApplication.shared.scheduleLocalNotification(notification)
-        
         
         
     }

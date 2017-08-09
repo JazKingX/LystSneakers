@@ -8,65 +8,56 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+		</dict>
+		<key>Pods-LystNetwork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-LystSneakers.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-LystSneakersTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-LystSneakersUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>Spring.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0707B96C6A0C45EF63E2293EAA1CBCFF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1502739F80BDD074789E2E918C8429B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2D7C0D4E3EFF0FE6606976AA1C752969</key>
+		<key>15C052C4C6DEE7653F1E1F6A2FB7DE25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D8F80D920D15CE8B7E0EB9031972B79</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -76,17 +67,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3F339D5D25CB6978A30BED563712584E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>686F082D5AD331AB4AE28F2A7068FD7E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6EB4CB9351F6640CD84727E3D7FBCBC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E1619CF174EC28C90166A7C5D1637634</key>
+		<key>A720C2439728459D8ADEE7C337F9CB18</key>
 		<dict>
 			<key>primary</key>
 			<true/>

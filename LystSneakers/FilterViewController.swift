@@ -160,33 +160,36 @@ extension FilterViewController {
     //Set layout for user preferences
     func changeInterfacePreferences() {
         
+        
+        let colorPicker = ColorPicker()
+        
         switch self.networkManager.gender {
         case .male:
             print("is male")
             self.tableView.isHidden = false
-            self.manButton.backgroundColor = UIColor(red:1.00, green:0.51, blue:0.46, alpha:1.0)
+            self.manButton.backgroundColor = colorPicker.defaultOrange
             self.manButton.setTitleColor(.white, for: .normal)
-            self.womanButton.backgroundColor = UIColor.white
+            self.womanButton.backgroundColor = colorPicker.white
             self.womanButton.setTitleColor(.black, for: .normal)
-            self.filterButton.backgroundColor = UIColor(red:1.00, green:0.51, blue:0.46, alpha:1.0)
+            self.filterButton.backgroundColor = colorPicker.defaultOrange
             self.filterButton.setTitleColor(.white, for: .normal)
             
         case .female:
             self.tableView.isHidden = false
-            self.womanButton.backgroundColor = UIColor(red:1.00, green:0.51, blue:0.46, alpha:1.0)
+            self.womanButton.backgroundColor = colorPicker.defaultOrange
             self.womanButton.setTitleColor(.white, for: .normal)
-            self.manButton.backgroundColor = UIColor.white
+            self.manButton.backgroundColor = colorPicker.white
             self.manButton.setTitleColor(.black, for: .normal)
-            self.filterButton.backgroundColor = UIColor(red:1.00, green:0.51, blue:0.46, alpha:1.0)
+            self.filterButton.backgroundColor = colorPicker.defaultOrange
             self.filterButton.setTitleColor(.white, for: .normal)
             
         case .none:
             self.tableView.isHidden = true
-            self.womanButton.backgroundColor = UIColor.white
+            self.womanButton.backgroundColor = colorPicker.white
             self.womanButton.setTitleColor(.black, for: .normal)
-            self.manButton.backgroundColor = UIColor.white
+            self.manButton.backgroundColor = colorPicker.white
             self.manButton.setTitleColor(.black, for: .normal)
-            self.filterButton.backgroundColor = UIColor(red:1.00, green:0.51, blue:0.46, alpha:1.0)
+            self.filterButton.backgroundColor = colorPicker.defaultOrange
             self.filterButton.setTitleColor(.white, for: .normal)
             
         }

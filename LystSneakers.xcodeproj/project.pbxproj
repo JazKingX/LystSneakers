@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		24DF27734BD94142DAD54622 /* Pods_LystSneakersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8636C72AD069EBD041039FBA /* Pods_LystSneakersUITests.framework */; };
+		628AF63444184161C2E6D104 /* Pods_LystNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEBAF5018725F57C7AAAAB7 /* Pods_LystNetwork.framework */; };
+		731BF0351F3BAD0F00522DAF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BF0341F3BAD0F00522DAF /* NetworkManager.swift */; };
+		731BF0371F3BAD3100522DAF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BF0361F3BAD3100522DAF /* Product.swift */; };
+		731BF03C1F3BB44000522DAF /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BF03B1F3BB44000522DAF /* ColorPicker.swift */; };
+		731BF03E1F3BC66800522DAF /* NotificationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BF03D1F3BC66800522DAF /* NotificationMock.swift */; };
 		731F0F8D1F26C4F300F525A5 /* LystNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731F0F841F26C4F300F525A5 /* LystNetwork.framework */; };
 		731F0F941F26C4F300F525A5 /* LystNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F0F931F26C4F300F525A5 /* LystNetworkTests.swift */; };
 		731F0F961F26C4F300F525A5 /* LystNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 731F0F861F26C4F300F525A5 /* LystNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,11 +25,9 @@
 		736B456A1F17C72900F64E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736B45681F17C72900F64E41 /* LaunchScreen.storyboard */; };
 		736B45751F17C72A00F64E41 /* LystSneakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45741F17C72A00F64E41 /* LystSneakersTests.swift */; };
 		736B45801F17C72A00F64E41 /* LystSneakersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B457F1F17C72A00F64E41 /* LystSneakersUITests.swift */; };
-		736B458E1F17D4F600F64E41 /* NetworkMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B458D1F17D4F600F64E41 /* NetworkMananger.swift */; };
 		736B45901F17D50600F64E41 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B458F1F17D50600F64E41 /* NotificationManager.swift */; };
 		736B45951F1956F200F64E41 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45941F1956F100F64E41 /* CollectionViewCell.swift */; };
 		736B459A1F197CCB00F64E41 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B45991F197CCA00F64E41 /* FilterViewController.swift */; };
-		736B459D1F19871D00F64E41 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B459C1F19871D00F64E41 /* Product.swift */; };
 		841148B2E828266049C5D8DE /* Pods_LystSneakers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5A06FFD965836B3BA66F85 /* Pods_LystSneakers.framework */; };
 		9682049931D203098B892BCD /* Pods_LystSneakersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A33C9F3C54B4FC130438ED /* Pods_LystSneakersTests.framework */; };
 /* End PBXBuildFile section */
@@ -84,9 +87,15 @@
 /* Begin PBXFileReference section */
 		176B043FD69E58295A85FE24 /* Pods-LystSneakersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		17A33C9F3C54B4FC130438ED /* Pods_LystSneakersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystSneakersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C43DD88289855EA740D11D1 /* Pods-LystNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystNetwork/Pods-LystNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		2C1942DE9FD1ABBD8A528F3D /* Pods-LystNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystNetwork/Pods-LystNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		4D3C3AC21FCAEF3D7F7825A6 /* Pods-LystSneakersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests.release.xcconfig"; sourceTree = "<group>"; };
 		4DD0F70D52C8369E2652FCC5 /* Pods-LystSneakersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		591BD844E6E26D2258375199 /* Pods-LystSneakers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakers.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers.release.xcconfig"; sourceTree = "<group>"; };
+		731BF0341F3BAD0F00522DAF /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		731BF0361F3BAD3100522DAF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		731BF03B1F3BB44000522DAF /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		731BF03D1F3BC66800522DAF /* NotificationMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationMock.swift; sourceTree = "<group>"; };
 		731F0F841F26C4F300F525A5 /* LystNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LystNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		731F0F861F26C4F300F525A5 /* LystNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LystNetwork.h; sourceTree = "<group>"; };
 		731F0F871F26C4F300F525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,13 +115,12 @@
 		736B457B1F17C72A00F64E41 /* LystSneakersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LystSneakersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		736B457F1F17C72A00F64E41 /* LystSneakersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LystSneakersUITests.swift; sourceTree = "<group>"; };
 		736B45811F17C72A00F64E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		736B458D1F17D4F600F64E41 /* NetworkMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkMananger.swift; path = ../LystSneakers/NetworkMananger.swift; sourceTree = "<group>"; };
 		736B458F1F17D50600F64E41 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		736B45941F1956F100F64E41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		736B45991F197CCA00F64E41 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
-		736B459C1F19871D00F64E41 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = ../LystSneakers/Product.swift; sourceTree = "<group>"; };
 		7C5A06FFD965836B3BA66F85 /* Pods_LystSneakers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystSneakers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8636C72AD069EBD041039FBA /* Pods_LystSneakersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystSneakersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEBAF5018725F57C7AAAAB7 /* Pods_LystNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LystNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EC6FC2B2BAA02C2BE31EA8 /* Pods-LystSneakersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A569A7AA8F303D58A0E06361 /* Pods-LystSneakers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LystSneakers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628AF63444184161C2E6D104 /* Pods_LystNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 				7C5A06FFD965836B3BA66F85 /* Pods_LystSneakers.framework */,
 				17A33C9F3C54B4FC130438ED /* Pods_LystSneakersTests.framework */,
 				8636C72AD069EBD041039FBA /* Pods_LystSneakersUITests.framework */,
+				9AEBAF5018725F57C7AAAAB7 /* Pods_LystNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +190,8 @@
 				4D3C3AC21FCAEF3D7F7825A6 /* Pods-LystSneakersTests.release.xcconfig */,
 				176B043FD69E58295A85FE24 /* Pods-LystSneakersUITests.debug.xcconfig */,
 				A4EC6FC2B2BAA02C2BE31EA8 /* Pods-LystSneakersUITests.release.xcconfig */,
+				2C1942DE9FD1ABBD8A528F3D /* Pods-LystNetwork.debug.xcconfig */,
+				1C43DD88289855EA740D11D1 /* Pods-LystNetwork.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -187,8 +199,8 @@
 		731F0F851F26C4F300F525A5 /* LystNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				736B459C1F19871D00F64E41 /* Product.swift */,
-				736B458D1F17D4F600F64E41 /* NetworkMananger.swift */,
+				731BF0341F3BAD0F00522DAF /* NetworkManager.swift */,
+				731BF0361F3BAD3100522DAF /* Product.swift */,
 				731F0F861F26C4F300F525A5 /* LystNetwork.h */,
 				731F0F871F26C4F300F525A5 /* Info.plist */,
 			);
@@ -243,6 +255,7 @@
 		736B45731F17C72A00F64E41 /* LystSneakersTests */ = {
 			isa = PBXGroup;
 			children = (
+				731BF03D1F3BC66800522DAF /* NotificationMock.swift */,
 				736B45741F17C72A00F64E41 /* LystSneakersTests.swift */,
 				736B45761F17C72A00F64E41 /* Info.plist */,
 			);
@@ -267,6 +280,7 @@
 				736B455D1F17C72900F64E41 /* AppDelegate.swift */,
 				736B45941F1956F100F64E41 /* CollectionViewCell.swift */,
 				736B458F1F17D50600F64E41 /* NotificationManager.swift */,
+				731BF03B1F3BB44000522DAF /* ColorPicker.swift */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -298,10 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 731F0F9B1F26C4F300F525A5 /* Build configuration list for PBXNativeTarget "LystNetwork" */;
 			buildPhases = (
+				7BACEB1DE06E7EE4120C53DF /* [CP] Check Pods Manifest.lock */,
 				731F0F7F1F26C4F300F525A5 /* Sources */,
 				731F0F801F26C4F300F525A5 /* Frameworks */,
 				731F0F811F26C4F300F525A5 /* Headers */,
 				731F0F821F26C4F300F525A5 /* Resources */,
+				DAF723B3664AF7E55F10770C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -408,6 +424,7 @@
 					731F0F831F26C4F300F525A5 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 92SY62KF9H;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					731F0F8B1F26C4F300F525A5 = {
@@ -505,13 +522,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LystSneakersTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5088E0D5035957EADE14984A /* [CP] Check Pods Manifest.lock */ = {
@@ -520,13 +540,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LystSneakers-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		59A7BAF803E6C229D1923949 /* [CP] Embed Pods Frameworks */ = {
@@ -535,9 +558,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersTests/Pods-LystSneakersTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,13 +610,40 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakers/Pods-LystSneakers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BACEB1DE06E7EE4120C53DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LystNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AE377A178EF3314C9A3CCEFA /* [CP] Copy Pods Resources */ = {
@@ -610,13 +667,35 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystSneakersUITests/Pods-LystSneakersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF723B3664AF7E55F10770C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LystNetwork/Pods-LystNetwork-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE6BE29FF34FEBFAD93527BA /* [CP] Check Pods Manifest.lock */ = {
@@ -625,13 +704,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LystSneakersUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -641,6 +723,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731BF0351F3BAD0F00522DAF /* NetworkManager.swift in Sources */,
+				731BF0371F3BAD3100522DAF /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,12 +740,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736B458E1F17D4F600F64E41 /* NetworkMananger.swift in Sources */,
-				736B459D1F19871D00F64E41 /* Product.swift in Sources */,
 				736B459A1F197CCB00F64E41 /* FilterViewController.swift in Sources */,
 				736B45951F1956F200F64E41 /* CollectionViewCell.swift in Sources */,
 				736B45901F17D50600F64E41 /* NotificationManager.swift in Sources */,
 				736B45601F17C72900F64E41 /* FeedViewController.swift in Sources */,
+				731BF03C1F3BB44000522DAF /* ColorPicker.swift in Sources */,
 				736B455E1F17C72900F64E41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,6 +753,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731BF03E1F3BC66800522DAF /* NotificationMock.swift in Sources */,
 				736B45751F17C72A00F64E41 /* LystSneakersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,7 +818,9 @@
 /* Begin XCBuildConfiguration section */
 		731F0F9C1F26C4F300F525A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1942DE9FD1ABBD8A528F3D /* Pods-LystNetwork.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -744,10 +830,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LystNetwork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -756,7 +844,9 @@
 		};
 		731F0F9D1F26C4F300F525A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C43DD88289855EA740D11D1 /* Pods-LystNetwork.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -766,6 +856,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = LystNetwork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Xebula.lystsneakers.LystNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -933,7 +1024,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DD0F70D52C8369E2652FCC5 /* Pods-LystSneakersTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 92SY62KF9H;
 				INFOPLIST_FILE = LystSneakersTests/Info.plist;
@@ -949,7 +1039,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D3C3AC21FCAEF3D7F7825A6 /* Pods-LystSneakersTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 92SY62KF9H;
 				INFOPLIST_FILE = LystSneakersTests/Info.plist;
@@ -965,7 +1054,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 176B043FD69E58295A85FE24 /* Pods-LystSneakersUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 92SY62KF9H;
 				INFOPLIST_FILE = LystSneakersUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -980,7 +1068,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4EC6FC2B2BAA02C2BE31EA8 /* Pods-LystSneakersUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 92SY62KF9H;
 				INFOPLIST_FILE = LystSneakersUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1001,6 +1088,7 @@
 				731F0F9D1F26C4F300F525A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		731F0F9F1F26C4F300F525A5 /* Build configuration list for PBXNativeTarget "LystNetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -1009,6 +1097,7 @@
 				731F0FA11F26C4F300F525A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		736B45551F17C72900F64E41 /* Build configuration list for PBXProject "LystSneakers" */ = {
 			isa = XCConfigurationList;

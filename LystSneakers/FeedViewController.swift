@@ -156,6 +156,8 @@ class FeedViewController: UIViewController, UICollectionViewDelegate, UICollecti
                 size = CGSize(width: screenWidth / 2.2, height: screenWidth / 1.5 )
             } else if UIDevice.current.orientation.isLandscape == true {
                 size = CGSize(width: screenWidth / 3.3, height: screenWidth / 2.5)
+            } else {
+                size = CGSize(width: screenWidth / 2.2, height: screenWidth / 1.5 )
             }
         case "iPad":
             size = CGSize(width: screenWidth / 4.5, height: screenWidth / 3.2 )
@@ -229,14 +231,12 @@ extension FeedViewController {
     
     // Load products from url
     func loadData() {
-        DispatchQueue.main.async {
             self.networkManager.getObjects(completionHandler: { list in
                 self.products = list
                 self.collectionView.reloadData()
                 // print("Products in view controller products array \(self.products.count)")
                 
             }, self.networkManager.getUrl(self.networkManager.gender, category: self.networkManager.category))
-        }
     }
     
 }

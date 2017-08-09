@@ -1,22 +1,22 @@
 //
-//  LystSneakersTests.swift
-//  LystSneakersTests
+//  NotificationMock.swift
+//  LystSneakers
 //
-//  Created by Jaz King on 13/07/2017.
+//  Created by Jaz King on 09/08/2017.
 //  Copyright © 2017 Jaz King. All rights reserved.
 //
 
 import XCTest
 @testable import LystSneakers
 
-class LystSneakersTests: XCTestCase {
+class NotificationMock: XCTestCase {
     
-    var color: ColorPicker!
-    
+    var mockNotificationManager: MockNotificationManager!
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        color = ColorPicker()
+        mockNotificationManager = MockNotificationManager()
     }
     
     override func tearDown() {
@@ -36,12 +36,26 @@ class LystSneakersTests: XCTestCase {
         }
     }
     
-    //Test is the default app color is the correct value used in the app
-    func testAppDefaultColor() {
+    //Test notification
+    
+    func testDidSetNotification() {
         
-        let orange = UIColor(red:1.00, green:0.51, blue:0.46, alpha:1.0)
+        mockNotificationCenter.setNotificationIn5("Test", type: "Type")
         
-        XCTAssertEqual(color.defaultOrange, orange)
+        XCTAssertTrue(mockNotificationManager.didRecieveNotification, "Product notification did not post")
         
+        //XCTAssertFalse(mockNotificationCenter.didRecieveNotification)
+    }
+    
+    //Mock Notification
+    class MockNotificationManager: NotificationManager {
+        
+        var didRecieveNotification = false
+        
+        override func setNotificationIn5(_ name: String, type: String) {
+            if name == "Test" {
+                didRecieveNotification = true
+            }
+        }
     }
 }
